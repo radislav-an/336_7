@@ -86,6 +86,12 @@
     <Compile Include="FormAll.Designer.cs">
       <DependentUpon>FormAll.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCrit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCrit.Designer.cs">
+      <DependentUpon>FormCrit.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormEdit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAll.resx">
       <DependentUpon>FormAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCrit.resx">
+      <DependentUpon>FormCrit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormEdit.resx">
       <DependentUpon>FormEdit.cs</DependentUpon>

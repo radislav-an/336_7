@@ -36,6 +36,9 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,9 +90,9 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(607, 174);
+            this.button4.Location = new System.Drawing.Point(607, 162);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(152, 60);
+            this.button4.Size = new System.Drawing.Size(152, 49);
             this.button4.TabIndex = 4;
             this.button4.Text = "Оновити таблицю";
             this.button4.UseVisualStyleBackColor = true;
@@ -98,7 +101,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(607, 313);
+            this.button5.Location = new System.Drawing.Point(607, 252);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(152, 39);
             this.button5.TabIndex = 5;
@@ -109,9 +112,9 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button6.Location = new System.Drawing.Point(607, 358);
+            this.button6.Location = new System.Drawing.Point(607, 310);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(152, 63);
+            this.button6.Size = new System.Drawing.Size(152, 55);
             this.button6.TabIndex = 6;
             this.button6.Text = "Журнал пацієнта";
             this.button6.UseVisualStyleBackColor = true;
@@ -120,20 +123,53 @@
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button7.Location = new System.Drawing.Point(607, 427);
+            this.button7.Location = new System.Drawing.Point(607, 371);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(152, 59);
+            this.button7.Size = new System.Drawing.Size(152, 54);
             this.button7.TabIndex = 7;
             this.button7.Text = "Загальний журнал";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button8.Location = new System.Drawing.Point(607, 431);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(152, 55);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "Критичний журнал";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.textBox1.Location = new System.Drawing.Point(98, 502);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(214, 26);
+            this.textBox1.TabIndex = 9;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label1.Location = new System.Drawing.Point(29, 505);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 20);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Пошук";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(782, 498);
+            this.ClientSize = new System.Drawing.Size(782, 535);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -147,6 +183,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -160,6 +197,9 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

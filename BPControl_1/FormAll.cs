@@ -37,7 +37,7 @@ namespace BPControl
 
             //Загрузка бази даних в таблицю
 
-            SqlDataAdapter dataAdapter = new SqlDataAdapter("SELECT Surname AS \"Призвище\", Name AS \"Ім'я\", Patronymic AS \"По-батькові\", MeasurementDate AS \"Дата Час\",  SystolicPressure AS \"Систолічний тиск\", DiastolicPressure AS \"Діастолічний тиск\", HeartRate AS \"Серцебиття\" FROM Measurements", sqlConnection);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter("SELECT Surname AS \"Прізвище\", Name AS \"Ім'я\", Patronymic AS \"По-батькові\", MeasurementDate AS \"Дата Час\",  SystolicPressure AS \"Систолічний тиск\", DiastolicPressure AS \"Діастолічний тиск\", HeartRate AS \"Серцебиття\" FROM Measurements", sqlConnection);
 
             DataSet dataSet = new DataSet();
             dataAdapter.Fill(dataSet);

@@ -74,14 +74,14 @@ namespace BPControl
 
             //Загрузка бази даних в таблицю
 
-            SqlDataAdapter dataAdapter = new SqlDataAdapter("SELECT Surname AS \"Призвище\", Name AS \"Ім'я\", Patronymic AS \"По-батькові\", MeasurementDate AS \"Дата Час\",  SystolicPressure AS \"Систолічний тиск\", DiastolicPressure AS \"Діастолічний тиск\", HeartRate AS \"Серцебиття\" FROM Measurements", sqlConnection);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter("SELECT Surname AS \"Прізвище\", Name AS \"Ім'я\", Patronymic AS \"По-батькові\", MeasurementDate AS \"Дата Час\",  SystolicPressure AS \"Систолічний тиск\", DiastolicPressure AS \"Діастолічний тиск\", HeartRate AS \"Серцебиття\" FROM Measurements", sqlConnection);
             
             DataSet dataSet = new DataSet();
             dataAdapter.Fill(dataSet); 
             dataGridView1.DataSource = dataSet.Tables[0];
 
             //(dataGridView1.DataSource as DataTable).DefaultView.RowFilter = $"SystolicPressure >= 140";
-            (dataGridView1.DataSource as DataTable).DefaultView.RowFilter = $"Призвище LIKE '%{textBox1.Text}%'";
+            (dataGridView1.DataSource as DataTable).DefaultView.RowFilter = $"Прізвище LIKE '%{textBox1.Text}%'";
 
 
             //Режим наявності строки вибору в таблиці

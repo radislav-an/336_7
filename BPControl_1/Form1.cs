@@ -199,5 +199,19 @@ namespace BPControl
             formAll.ShowDialog();
 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            FormCrit formCrit = new FormCrit();
+            formCrit.ShowDialog();
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            (dataGridView1.DataSource as DataTable).DefaultView.RowFilter = $"Прізвище LIKE '%{textBox1.Text}%'";
+            //(dataGridView1.DataSource as DataTable).DefaultView.RowFilter = $"Surname LIKE '%{textBox1.Text}%'";
+
+        }
     }
 }
