@@ -1,0 +1,15 @@
+C:\Prog_C#\WindowsFormsAppL9\bin\Debug\Students.mdf
+C:\Prog_C#\WindowsFormsAppL9\bin\Debug\Students_log.ldf
+C:\Prog_C#\WindowsFormsAppL9\bin\Debug\WindowsFormsAppL9.exe.config
+C:\Prog_C#\WindowsFormsAppL9\bin\Debug\WindowsFormsAppL9.exe
+C:\Prog_C#\WindowsFormsAppL9\bin\Debug\WindowsFormsAppL9.pdb
+C:\Prog_C#\WindowsFormsAppL9\obj\Debug\WindowsFormsAppL9.csproj.AssemblyReference.cache
+C:\Prog_C#\WindowsFormsAppL9\obj\Debug\WindowsFormsAppL9.csproj.SuggestedBindingRedirects.cache
+C:\Prog_C#\WindowsFormsAppL9\obj\Debug\WindowsFormsAppL9.Form1.resources
+C:\Prog_C#\WindowsFormsAppL9\obj\Debug\WindowsFormsAppL9.Properties.Resources.resources
+C:\Prog_C#\WindowsFormsAppL9\obj\Debug\WindowsFormsAppL9.csproj.GenerateResource.cache
+C:\Prog_C#\WindowsFormsAppL9\obj\Debug\WindowsFormsAppL9.csproj.CoreCompileInputs.cache
+C:\Prog_C#\WindowsFormsAppL9\obj\Debug\WindowsFormsAppL9.exe
+C:\Prog_C#\WindowsFormsAppL9\obj\Debug\WindowsFormsAppL9.pdb
+C:\Prog_C#\WindowsFormsAppL9\obj\Debug\WindowsFormsAppL9.FormAdd.resources
+C:\Prog_C#\WindowsFormsAppL9\obj\Debug\WindowsFormsAppL9.FormEdit.resources
